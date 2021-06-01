@@ -1,0 +1,14 @@
+{
+  "users": [
+    {"id":33,"name": "Ivan","email": "www@jj.ler4"},
+    {"id":34,"name": "Potap","email": "www@jj.ler3"},
+    {"id":35,"name": "Grinia","email": "www@jj.ler2"},
+    {"id":36,"name": "Tolian","email": "www@jj.ler1"}
+  ],
+  "product": {
+    "telephone": [],
+    "television": [],
+    "laptop": []
+  },
+  "basket": [{"user": "id","orders": []}]
+}

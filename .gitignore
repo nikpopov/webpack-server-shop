@@ -1,0 +1,9 @@
+# dependencies
+/node_modules
+
+# Editors
+.idea/
+.vscode/
+
+# Block build
+/dist
