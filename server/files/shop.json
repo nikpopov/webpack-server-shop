@@ -5,10 +5,35 @@
     {"id":35,"name": "Grinia","email": "www@jj.ler2"},
     {"id":36,"name": "Tolian","email": "www@jj.ler1"}
   ],
-  "product": {
-    "telephone": [],
-    "television": [],
-    "laptop": []
-  },
+  "products": [
+    {
+      "productId": "0101",
+      "productName": "product_name_1",
+      "productDescription": "product description 1",
+      "productPrice": "product price 1",
+      "productGroup": "product group 1"
+    },
+    {
+      "productId": "0102",
+      "productName": "product_name_2",
+      "productDescription": "product description 2",
+      "productPrice": "product price 2",
+      "productGroup": "product group 1"
+    },
+    {
+      "productId": "0103",
+      "productName": "product_name_3",
+      "productDescription": "product description 3",
+      "productPrice": "product price 3",
+      "productGroup": "product group 2"
+    },
+    {
+      "productId": "0104",
+      "productName": "product_name_4",
+      "productDescription": "product description 4",
+      "productPrice": "product price 4",
+      "productGroup": "product group 2"
+    }
+  ],
   "basket": [{"user": "id","orders": []}]
 }

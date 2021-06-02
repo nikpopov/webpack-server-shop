@@ -15,10 +15,11 @@ app.get('/', (req, res) => {
 });
 
 // GET all users json
-app.get("/api/users",(req,res)=>{
+app.get("/getProducts",(req,res)=>{
     const content=fs.readFileSync(filePath,'utf8');
-    const users=JSON.parse(content);
-    res.send(users);
+    const products=JSON.parse(content).products;
+    console.log(products);
+    res.send(products);
 })
 
 
